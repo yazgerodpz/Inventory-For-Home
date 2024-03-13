@@ -1,4 +1,4 @@
-USE [InventoriForHome]
+USE [InventoryForHome]
 GO
 
 /****** Object:  Table [dbo].[CatTypePrioritary]    Script Date: 12/03/2024 10:39:11 p. m. ******/

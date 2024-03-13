@@ -1,4 +1,4 @@
-USE [InventoriForHome]
+USE [InventoryForHome]
 GO
 
 /****** Object:  Table [dbo].[Item]    Script Date: 12/03/2024 10:40:02 p. m. ******/
