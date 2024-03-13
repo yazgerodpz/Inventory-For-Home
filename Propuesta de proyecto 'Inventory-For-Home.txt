@@ -1,29 +1,29 @@
 Propuesta de Proyecto: Inventory-For-Home
 
-Este proyecto busca crear un listado de artículos tanto usados en el día a día al igual que para cumplir
-ciertas necesidades ocasionales, teniendo un control sobre sus cantidades y posibles fechas de vencimiento
+Este proyecto busca crear un listado de articulos tanto usados en el dia a dia al igual que para cumplir
+ciertas necesidades ocacionales, teniendo un control sobre sus cantidades y posibles fechas de vencimiento
 
--Se contara con un aviso al iniciar el programa enumerando los artículos pronto a acabarse (ya sea por quedar sin
- existencias o por la fecha de vencimiento en caso de contar con ella)
+-Se contara con un aviso al iniciar el programa enumerando los articulos pronto a acabarse (ya sea por quedar sin
+ existensias o por la fecha de vencimiento en caso de contar con ella)
 
--Una de las funciones le permitirá al usuario actualizar el stock con el que se cuenta al igual de 
- activar/desactivar el/los artículos que se requiera
+-Una de las funciones le permitira al usuario actualizar el stock con el que se cuenta al igual de 
+ activar/desactivar el/los articulos que se requiera
 
--Los artículos estarán catalogados en tres categorías diferentes para generar una prioridad sobre los artículos
+-Los articulos estaran catalogados en tres categorias diferentes para generar una prioridad sobre los articulos
  que se necesitara reponer
 
- Las categorías serán:
-	+Consumibles (aquellos artículos como alimento o de uso medico)
-	+De uso diario (artículos de uso diario como pueden ser papel higiénico etc.)
-	+Reparaciones (artículos como tornillos o herramienta)
- Siendo los de mayor prioridad los "Consumibles" por su mas próxima fecha de caducidad, en segundo lugar los
- "De uso diario" debido a su mas prolongado tiempo de vida útil y en ultimo los de "Reparación" 
+ Las categorias seran:
+	+Alta -Consumibles (aquellos articulos como alimento o de uso medico)
+	+Media -De uso diario (articulos de uso diario como pueden ser papel higienico etc.)
+	+Baja -Reparacione (articulos como tornillos o herramienta)
+ Siendo los de mayor prioridad los "Consumibles" por su mas proxima fecha de caducidad, ensegundo lugar los
+ "De uso diario" debido a su mas prolongado tiempo de vida util y en ultimo los de "Reparacion" 
 
--Los stocks de los artículos no pueden quedar en números negativos, mas si logrando quedar en ceros
+-Los stocks de los articulos no pueden quedar en numeros negativos, mas si logrando quedar en ceros
 
--Se le pedirá al usuario realizar una actualización cada tres días
+-Se le pediara al usuario realizar una actualizacion cada tres dias
 
 -Agregando nuevas funciones y actualizado las ya existentes con forme el proyecto se traslade a otras plataformas
 
--Sin mencionar que se harán ajusten durante el desarrollo por lo cual se pueden añadir o retirar funciones, al igual
-que reglas para su función mas optima.
+-Sin mencionar que se haran ajusten durante el desarrollo por lo cual se pueden añadir o retirar funciones, al igual
+que reglas para su funcion mas optima
