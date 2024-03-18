@@ -1,7 +1,7 @@
 USE [InventoryForHome]
 GO
 
-/****** Object:  Table [dbo].[Item]    Script Date: 12/03/2024 10:40:02 p. m. ******/
+/****** Object:  Table [dbo].[Item]    Script Date: 18/03/2024 12:18:14 a. m. ******/
 SET ANSI_NULLS ON
 GO
 

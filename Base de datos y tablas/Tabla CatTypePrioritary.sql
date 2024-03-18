@@ -1,7 +1,7 @@
 USE [InventoryForHome]
 GO
 
-/****** Object:  Table [dbo].[CatTypePrioritary]    Script Date: 12/03/2024 10:39:11 p. m. ******/
+/****** Object:  Table [dbo].[CatTypePrioritary]    Script Date: 18/03/2024 12:17:46 a. m. ******/
 SET ANSI_NULLS ON
 GO
 
@@ -11,7 +11,7 @@ GO
 CREATE TABLE [dbo].[CatTypePrioritary](
 	[IdTypePrioritary] [int] IDENTITY(1,1) NOT NULL,
 	[TypePrioritaryName] [nvarchar](max) NOT NULL,
-	[Description] [nvarchar](max) NOT NULL,
+	[_Description] [nvarchar](max) NOT NULL,
 	[Active] [bit] NOT NULL,
  CONSTRAINT [PK_CatTypePrioritary] PRIMARY KEY CLUSTERED 
 (

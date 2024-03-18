@@ -1,24 +1,19 @@
--- ================================================
--- Template generated from Template Explorer using:
--- Create Procedure (New Menu).SQL
---
--- Use the Specify Values for Template Parameters 
--- command (Ctrl-Shift-M) to fill in the parameter 
--- values below.
---
--- This block of comments will not be included in
--- the definition of the procedure.
--- ================================================
+USE [InventoryForHome]
+GO
+
+/****** Object:  StoredProcedure [dbo].[OptionMenu]    Script Date: 18/03/2024 12:18:37 a. m. ******/
 SET ANSI_NULLS ON
 GO
+
 SET QUOTED_IDENTIFIER ON
 GO
+
 -- =============================================
--- Author:		Yazbeth Gerardo Rodríguez Pérez
+-- Author:		Yazbeth Gerardo RodrÃ­guez PÃ©rez
 -- Create date: 13/03/24
--- Description:	Crear un listado de artículos para tener un control de ellos
+-- Description:	Crear un listado de artÃ­culos para tener un control de ellos
 -- =============================================
-CREATE PROCEDURE OptionMenu 
+CREATE PROCEDURE [dbo].[OptionMenu] 
 	-- Add the parameters for the stored procedure here
 	@OptionMenu Int = 0, 
 	@Variable_InsertarItemName Nvarchar(MAX) = Null,
@@ -38,18 +33,18 @@ BEGIN
     -- Insert statements for procedure here
 	If @OptionMenu = 0
 	Begin 
-		Select 'Opción default'
-END
+		Select 'OpciÃ³n default'
+	END
 
 	If @OptionMenu = 1
 	Begin
 		Insert Into Item Values (@Variable_InsertarItemName, @Variable_InsertarStock, @Variable_InsertarIdTypePrioritary, @Variable_InsertarIdTypeStock, @Variable_InsertarPurchesDate, @Variable_InsertarExpirationDate, @Variable_InsertarActive) 
-END
+	END
 
 	If @OptionMenu = 2
 	Begin
 		Select * From Item Where Active = 1
-END
+	END
 
 	If @OptionMenu = 3
 	Begin
@@ -63,11 +58,13 @@ END
 			ExpirationDate = @Variable_InsertarExpirationDate,
 			Active = @Variable_InsertarActive
 		Where IdItem = @Variable_InsertarId
-END
+	END
 
 	If @OptionMenu = 4
 	Begin
 		Delete From Item
 		Where IdItem = @Variable_InsertarId
+	END
 END
 GO
+
