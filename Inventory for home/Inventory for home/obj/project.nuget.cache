@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "aQN+XJXVCp+o0fKdqCjqao4PCKDYN7NAbjx4dglgSve7frSGnUDCMMf3R63BLrPgFIBietjL2/+VezQb/TlnHg==",
+  "success": true,
+  "projectFilePath": "D:\\Yazryr\\source\\repos\\Inventory for home\\Inventory for home\\Inventory for home.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yazryr\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\Yazryr\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\Yazryr\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\Yazryr\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.17\\microsoft.netcore.app.host.win-x64.7.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

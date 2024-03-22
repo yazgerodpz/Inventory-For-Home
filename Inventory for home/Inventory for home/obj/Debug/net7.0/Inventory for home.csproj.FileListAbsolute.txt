@@ -1,0 +1,14 @@
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Inventory for home.exe
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Inventory for home.deps.json
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Inventory for home.runtimeconfig.json
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Inventory for home.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Inventory for home.pdb
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\obj\Debug\net7.0\Inventory for home.GeneratedMSBuildEditorConfig.editorconfig
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\obj\Debug\net7.0\Inventory for home.AssemblyInfoInputs.cache
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\obj\Debug\net7.0\Inventory for home.AssemblyInfo.cs
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\obj\Debug\net7.0\Inventory for home.csproj.CoreCompileInputs.cache
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\obj\Debug\net7.0\Inventory for home.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\obj\Debug\net7.0\refint\Inventory for home.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\obj\Debug\net7.0\Inventory for home.pdb
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\obj\Debug\net7.0\Inventory for home.genruntimeconfig.cache
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\obj\Debug\net7.0\ref\Inventory for home.dll
