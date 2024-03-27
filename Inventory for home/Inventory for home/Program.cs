@@ -119,7 +119,7 @@ async Task SubmenuA1()
                 await Task.Delay(2500);
                 break;
         }
-        await Task.Delay(2500);
+        await Task.Delay(1500);
         Console.Clear();
     }
     while (SubmenuA1);
@@ -133,29 +133,23 @@ async Task SubmenuA2()
     Console.Clear();
     do
     {
-        Console.WriteLine("Opción ver 'Stock' ó 'Prioridad'");
-        Console.WriteLine("Añadir nuevo artículo");
-        Console.WriteLine("Modificar artículo");
-        Console.WriteLine("Eliminar artículo");
-        Console.WriteLine("Volver al menú pricipal");
+        Console.WriteLine("Opciones para ver 'Stock' ó 'Prioridad'");
+        Console.WriteLine("1.-Ver información de 'Stock'");
+        Console.WriteLine("2.-Ver información de 'Stock'");
+        Console.WriteLine("3.-Volver al menú pricipal");
         switch (_opcSubmenuA2)
         {
             case "1":
-                Console.WriteLine("Se eligío añadir nuevo artículo");
+                Console.WriteLine("Se eligío ver información de 'Stock'");
                 await Task.Delay(2500);
                 break;
 
             case "2":
-                Console.WriteLine("Se eligío modificar un artículo");
+                Console.WriteLine("Se eligío ver información de 'Stock'");
                 await Task.Delay(2500);
                 break;
 
             case "3":
-                Console.WriteLine("Se elígio eliminar arículo");
-                await Task.Delay(2500);
-                break;
-
-            case "4":
                 Console.WriteLine("Se eligío volver al menú pricipal");
                 await Task.Delay(2500);
                 SubmenuA2 = false;
@@ -180,29 +174,23 @@ async Task SubmenuA3()
     Console.Clear();
     do
     {
-        Console.WriteLine("Opciones de editar inventario");
-        Console.WriteLine("Añadir nuevo artículo");
-        Console.WriteLine("Modificar artículo");
-        Console.WriteLine("Eliminar artículo");
+        Console.WriteLine("Seleccione entre 'Stock' ó 'Prioridad' para editar");
+        Console.WriteLine("Editar 'Stock'");
+        Console.WriteLine("Editar 'Prioridad'");
         Console.WriteLine("Volver al menú pricipal");
         switch (_opcSubmenuA3)
         {
             case "1":
-                Console.WriteLine("Se eligío añadir nuevo artículo");
+                Console.WriteLine("Se eligío editar 'Stock'");
                 await Task.Delay(2500);
                 break;
 
             case "2":
-                Console.WriteLine("Se eligío modificar un artículo");
+                Console.WriteLine("Se eligío editar 'Prioridad'");
                 await Task.Delay(2500);
                 break;
 
             case "3":
-                Console.WriteLine("Se elígio eliminar arículo");
-                await Task.Delay(2500);
-                break;
-
-            case "4":
                 Console.WriteLine("Se eligío volver al menú pricipal");
                 await Task.Delay(2500);
                 SubmenuA3 = false;

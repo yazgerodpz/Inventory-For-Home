@@ -12,3 +12,57 @@ D:\Yazryr\source\repos\Inventory for home\Inventory for home\obj\Debug\net7.0\re
 D:\Yazryr\source\repos\Inventory for home\Inventory for home\obj\Debug\net7.0\Inventory for home.pdb
 D:\Yazryr\source\repos\Inventory for home\Inventory for home\obj\Debug\net7.0\Inventory for home.genruntimeconfig.cache
 D:\Yazryr\source\repos\Inventory for home\Inventory for home\obj\Debug\net7.0\ref\Inventory for home.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Azure.Core.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Azure.Identity.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Humanizer.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\System.CodeDom.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\System.Memory.Data.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\obj\Debug\net7.0\Inventory for home.csproj.AssemblyReference.cache
+D:\Yazryr\source\repos\Inventory for home\Inventory for home\obj\Debug\net7.0\Inventor.F13B3DC9.Up2Date
