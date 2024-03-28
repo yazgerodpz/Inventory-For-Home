@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Yazryr\\source\\repos\\Inventory for home\\",
+  "WorkspaceRootPath": "D:\\Yazryr\\source\\repos\\Inventory for home\\Inventory for home\\",
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Yazryr\\source\\repos\\Inventory for home\\Inventory for home\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Inventory for home\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,12 +21,12 @@
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Yazryr\\source\\repos\\Inventory for home\\Inventory for home\\Program.cs",
-              "RelativeDocumentMoniker": "Inventory for home\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Yazryr\\source\\repos\\Inventory for home\\Inventory for home\\Program.cs",
-              "RelativeToolTip": "Inventory for home\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcBAABCAAAA",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABcBAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T03:49:49.696Z",
+              "WhenOpened": "2024-03-28T04:34:00.727Z",
               "EditorCaption": ""
             }
           ]
