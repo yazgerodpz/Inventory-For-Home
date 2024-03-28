@@ -38,7 +38,11 @@ BEGIN
 
 	If @CS = 2
 	Begin
-		Select * From CatTypeStock Where Active = 1
+		SELECT 
+			 --[IdTypeStock]
+			   [TypeStockName]
+			--,[Active]
+		FROM [InventoryForHome].[dbo].[CatTypeStock]
 	END
 
 	If @CS = 3
