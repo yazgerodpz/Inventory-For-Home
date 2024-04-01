@@ -135,7 +135,7 @@ async Task SubmenuA2()
     {
         Console.WriteLine("Opciones para ver 'Stock' ó 'Prioridad'");
         Console.WriteLine("1.-Ver información de 'Stock'");
-        Console.WriteLine("2.-Ver información de 'Stock'");
+        Console.WriteLine("2.-Ver información de 'Prioridad'");
         Console.WriteLine("3.-Volver al menú pricipal");
         switch (_opcSubmenuA2)
         {
@@ -145,7 +145,7 @@ async Task SubmenuA2()
                 break;
 
             case "2":
-                Console.WriteLine("Se eligío ver información de 'Stock'");
+                Console.WriteLine("Se eligío ver información de 'Prioridad'");
                 await Task.Delay(2500);
                 break;
 
@@ -175,18 +175,20 @@ async Task SubmenuA3()
     do
     {
         Console.WriteLine("Seleccione entre 'Stock' ó 'Prioridad' para editar");
-        Console.WriteLine("Editar 'Stock'");
-        Console.WriteLine("Editar 'Prioridad'");
-        Console.WriteLine("Volver al menú pricipal");
+        Console.WriteLine("1.-Editar 'Stock'");
+        Console.WriteLine("2.-Editar 'Prioridad'");
+        Console.WriteLine("3.-Volver al menú pricipal");
         switch (_opcSubmenuA3)
         {
             case "1":
                 Console.WriteLine("Se eligío editar 'Stock'");
+                await SubmenuB1();
                 await Task.Delay(2500);
                 break;
 
             case "2":
                 Console.WriteLine("Se eligío editar 'Prioridad'");
+                await SubmenuB2();
                 await Task.Delay(2500);
                 break;
 
@@ -205,4 +207,96 @@ async Task SubmenuA3()
         Console.Clear();
     }
     while (SubmenuA3);
+}
+async Task SubmenuB1()
+{
+    string _opcSubmenuB1 = string.Empty;
+    bool SubmenuB1 = true;
+    await Task.Delay(2500);
+    Console.Clear();
+    do
+    {
+        Console.WriteLine("Opciones para editar 'Stock'");
+        Console.WriteLine("1.-Añadir nuevo artículo");
+        Console.WriteLine("2.-Modificar artículo");
+        Console.WriteLine("3.-Eliminar artículo");
+        Console.WriteLine("4.-Volver al menú pricipal");
+        switch (_opcSubmenuB1)
+        {
+            case "1":
+                Console.WriteLine("Se eligío añadir nuevo artículo");
+                await Task.Delay(2500);
+                break;
+
+            case "2":
+                Console.WriteLine("Se eligío modificar artículo");
+                await Task.Delay(2500);
+                break;
+            
+            case "3":
+                Console.WriteLine("Se eligío eliminar artículo");
+                await Task.Delay(2500);
+                break;
+
+            case "4":
+                Console.WriteLine("Se eligío volver al menú pricipal");
+                await Task.Delay(2500);
+                SubmenuB1 = false;
+                break;
+
+            default:
+                Console.WriteLine("La opción elegida no existe");
+                await Task.Delay(2500);
+                break;
+        }
+        await Task.Delay(2500);
+        Console.Clear();
+    }
+    while (SubmenuB1);
+}
+async Task SubmenuB2()
+{
+    string _opcSubmenuB2 = string.Empty;
+    bool SubmenuB2 = true;
+    await Task.Delay(2500);
+    Console.Clear();
+    do
+    {
+        Console.WriteLine("Opciones para editar 'Prioridad'");
+        Console.WriteLine("1.-Añadir nueva 'Prioridad' y su descripció");
+        Console.WriteLine("2.-Modificar 'Prioridad' ó descipción ya existentes");
+        Console.WriteLine("3.-Eliminar 'Prioridad' y su descripción");
+        Console.WriteLine("4.-Volver al menú pricipal");
+        switch (_opcSubmenuB2)
+        {
+            case "1":
+                Console.WriteLine("Se eligío añadir nueva 'Prioridad' y su descripció");
+                await Task.Delay(2500);
+                break;
+
+            case "2":
+                Console.WriteLine("Se eligío modificar 'Prioridad' ó descipción ya existentes");
+                await Task.Delay(2500);
+                break;
+
+            case "3":
+                Console.WriteLine("Se eligío eliminar 'Prioridad' y su descripción");
+                await Task.Delay(2500);
+                break;
+
+            case "4":
+                Console.WriteLine("Se eligío volver al menú pricipal");
+                await Task.Delay(2500);
+                SubmenuB2 = false;
+                break;
+
+            default:
+                Console.WriteLine("La opción elegida no existe");
+                await Task.Delay(2500);
+                break;
+        }
+        await Task.Delay(2500);
+        Console.Clear();
+    }
+    while (SubmenuB2);
 }

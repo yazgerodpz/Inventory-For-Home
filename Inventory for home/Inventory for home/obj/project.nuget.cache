@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ycWSI4FnW3nWksNn8b4FVLHlyWOqqJ0mKtonRWCAELS8seAexmN4yjKb9DgLvhFfw5GJxuof6S1rmGGP3hVnMw==",
+  "dgSpecHash": "3o9tmEjWaqjl87w/fd/GxpI9Xvci57sA+603tii2K3qUlCZReSxu8SUvAxntudb8NNO1kcqZKtDlLX4qDDs2zw==",
   "success": true,
-  "projectFilePath": "D:\\Yazryr\\source\\repos\\Inventory for home\\Inventory for home\\Inventory for home.csproj",
+  "projectFilePath": "D:\\Yazryr\\Documents\\Programación\\Inventory-For-Home\\Inventory for home\\Inventory for home\\Inventory for home.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yazryr\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Yazryr\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

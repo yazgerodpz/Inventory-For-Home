@@ -2975,11 +2975,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Yazryr\\source\\repos\\Inventory for home\\Inventory for home\\Inventory for home.csproj",
+      "projectUniqueName": "D:\\Yazryr\\Documents\\Programación\\Inventory-For-Home\\Inventory for home\\Inventory for home\\Inventory for home.csproj",
       "projectName": "Inventory for home",
-      "projectPath": "D:\\Yazryr\\source\\repos\\Inventory for home\\Inventory for home\\Inventory for home.csproj",
+      "projectPath": "D:\\Yazryr\\Documents\\Programación\\Inventory-For-Home\\Inventory for home\\Inventory for home\\Inventory for home.csproj",
       "packagesPath": "C:\\Users\\Yazryr\\.nuget\\packages\\",
-      "outputPath": "D:\\Yazryr\\source\\repos\\Inventory for home\\Inventory for home\\obj\\",
+      "outputPath": "D:\\Yazryr\\Documents\\Programación\\Inventory-For-Home\\Inventory for home\\Inventory for home\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Programas\\Microsoft Visual Studio\\Shared\\NuGetPackages"
