@@ -8,7 +8,7 @@ bool _condicionCiclo = true;
 // linea para crear una pantalla de bienvenida
 // este comando usando el texto dentro de () para crear una linea de texto
 Console.WriteLine("Bienvenido");
-await Task.Delay(2500);
+await Task.Delay(1000);
 // el comando limpiara la pantalla
 Console.Clear();
 await MainMenuAsync();
@@ -69,7 +69,7 @@ async Task MainMenuAsync()
                 break;
         }
         // orden para limpiar la consola
-        await Task.Delay(2000);
+        await Task.Delay(1200);
         Console.Clear();
 
     }
@@ -81,7 +81,7 @@ async Task SubmenuA1()
 {
     string _opcSubmenuA1 = string.Empty;
     bool SubmenuA1 = true;
-    await Task.Delay(2500);
+    await Task.Delay(2000);
     Console.Clear();
     do
     {
@@ -110,7 +110,7 @@ async Task SubmenuA1()
 
             case "4":
                 Console.WriteLine("Se eligío volver al menú pricipal");
-                await Task.Delay(2000);
+                await Task.Delay(1500);
                 SubmenuA1 = false;
                 break;
 
@@ -119,7 +119,7 @@ async Task SubmenuA1()
                 await Task.Delay(2500);
                 break;
         }
-        await Task.Delay(1500);
+        await Task.Delay(1200);
         Console.Clear();
     }
     while (SubmenuA1);
@@ -129,7 +129,7 @@ async Task SubmenuA2()
 {
     string _opcSubmenuA2 = string.Empty;
     bool SubmenuA2 = true;
-    await Task.Delay(2500);
+    await Task.Delay(2000);
     Console.Clear();
     do
     {
@@ -137,6 +137,7 @@ async Task SubmenuA2()
         Console.WriteLine("1.-Ver información de 'Stock'");
         Console.WriteLine("2.-Ver información de 'Prioridad'");
         Console.WriteLine("3.-Volver al menú pricipal");
+        _opcSubmenuA2 = Console.ReadLine();
         switch (_opcSubmenuA2)
         {
             case "1":
@@ -151,7 +152,7 @@ async Task SubmenuA2()
 
             case "3":
                 Console.WriteLine("Se eligío volver al menú pricipal");
-                await Task.Delay(2500);
+                await Task.Delay(1500);
                 SubmenuA2 = false;
                 break;
 
@@ -160,7 +161,7 @@ async Task SubmenuA2()
                 await Task.Delay(2500);
                 break;
         }
-        await Task.Delay(2500);
+        await Task.Delay(1200);
         Console.Clear();
     }
     while (SubmenuA2);
@@ -170,14 +171,15 @@ async Task SubmenuA3()
 {
     string _opcSubmenuA3 = string.Empty;
     bool SubmenuA3 = true;
-    await Task.Delay(2500);
+    await Task.Delay(2000);
     Console.Clear();
     do
     {
         Console.WriteLine("Seleccione entre 'Stock' ó 'Prioridad' para editar");
-        Console.WriteLine("Editar 'Stock'");
-        Console.WriteLine("Editar 'Prioridad'");
-        Console.WriteLine("Volver al menú pricipal");
+        Console.WriteLine("1.-Editar 'Stock'");
+        Console.WriteLine("2.-Editar 'Prioridad'");
+        Console.WriteLine("3.-Volver al menú pricipal");
+        _opcSubmenuA3 = Console.ReadLine();
         switch (_opcSubmenuA3)
         {
             case "1":
@@ -194,7 +196,7 @@ async Task SubmenuA3()
 
             case "3":
                 Console.WriteLine("Se eligío volver al menú pricipal");
-                await Task.Delay(2500);
+                await Task.Delay(1500);
                 SubmenuA3 = false;
                 break;
 
@@ -203,7 +205,7 @@ async Task SubmenuA3()
                 await Task.Delay(2500);
                 break;
         }
-        await Task.Delay(2500);
+        await Task.Delay(1200);
         Console.Clear();
     }
     while (SubmenuA3);
@@ -250,7 +252,7 @@ async Task SubmenuB1()
                 await Task.Delay(2500);
                 break;
         }
-        await Task.Delay(1500);
+        await Task.Delay(1200);
         Console.Clear();
     }
     while (SubmenuB1);
@@ -297,7 +299,7 @@ async Task SubmenuB2()
                 await Task.Delay(2500);
                 break;
         }
-        await Task.Delay(1500);
+        await Task.Delay(1200);
         Console.Clear();
     }
     while (SubmenuB2);
