@@ -64,3 +64,7 @@ BEGIN
 END
 GO
 
+Exec CatalogoPrioridad 1
+Exec CatalogoPrioridad 2
+Exec CatalogoPrioridad 3
+Exec CatalogoPrioridad 4

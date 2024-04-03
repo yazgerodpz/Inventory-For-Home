@@ -62,3 +62,7 @@ BEGIN
 END
 GO
 
+Exec CatalogoStock 1
+Exec CatalogoStock 2
+Exec CatalogoStock 3
+Exec CatalogoStock 4
