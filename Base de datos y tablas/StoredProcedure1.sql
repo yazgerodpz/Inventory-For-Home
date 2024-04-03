@@ -1,17 +1,22 @@
-USE [InventoryForHome]
-GO
-
-/****** Object:  StoredProcedure [dbo].[OptionMenu]    Script Date: 18/03/2024 12:18:37 a. m. ******/
+-- ================================================
+-- Template generated from Template Explorer using:
+-- Create Procedure (New Menu).SQL
+--
+-- Use the Specify Values for Template Parameters 
+-- command (Ctrl-Shift-M) to fill in the parameter 
+-- values below.
+--
+-- This block of comments will not be included in
+-- the definition of the procedure.
+-- ================================================
 SET ANSI_NULLS ON
 GO
-
 SET QUOTED_IDENTIFIER ON
 GO
-
 -- =============================================
--- Author:		Yazbeth Gerardo RodrÃ­guez PÃ©rez
+-- Author:		Yazbeth Gerardo Rodríguez Pérez
 -- Create date: 13/03/24
--- Description:	Crear un listado de artÃ­culos para tener un control de ellos
+-- Description:	Crear un listado de artículos para tener un control de ellos
 -- =============================================
 CREATE PROCEDURE [dbo].[OptionMenu] 
 	-- Add the parameters for the stored procedure here
@@ -33,7 +38,7 @@ BEGIN
     -- Insert statements for procedure here
 	If @OptionMenu = 0
 	Begin 
-		Select 'OpciÃ³n default'
+		Select 'Opción default'
 	END
 
 	If @OptionMenu = 1
@@ -43,24 +48,23 @@ BEGIN
 
 	If @OptionMenu = 2
 	Begin
-		Select 
-			--A.[IdItem]
-			 A.[ItemName]
-			,A.[Stock]
-			--,A.[IdTypePrioritary]
-			,B.[TypePrioritaryName] AS Type_Prioritary
-			--,A.[IdTypeStock]
-			,C.[TypeStockName] AS Type_Stock
-			,A.[PurchesDate]
-			,A.[ExpirationDate]
-			--,A.[Active]
+		SELECT	A.[IdItem]
+				,A.[ItemName]
+				,A.[Stock]
+				--,A.[IdTypePrioritary]
+				,B.[TypePrioritaryName]
+				--,A.[IdTypeStock]
+				,C.[TypeStockName]
+				,A.[PurchesDate]
+				,A.[ExpirationDate]
+				--,A.[Active]
 		FROM [dbo].[Item] A
-		INNER JOIN [dbo].[CatTypePrioritary] B
-		ON A.[IdTypePrioritary] = B.[IdTypePrioritary]
-		INNER JOIN [dbo].[CatTypeStock] C
-		ON A.[IdTypeStock] = C.[IdTypeStock]
+				INNER JOIN [dbo].[CatTypePrioritary] B
+				ON A.[IdTypePrioritary] = B.[IdTypePrioritary]
+				INNER JOIN [dbo].[CatTypeStock] C
+				ON A.[IdTypeStock] = C.[IdTypeStock]
 		WHERE A.[Active] = 1
-		END
+	END
 
 	If @OptionMenu = 3
 	Begin
@@ -83,8 +87,3 @@ BEGIN
 	END
 END
 GO
-
-Exec OptionMenu 1
-Exec OptionMenu 2
-Exec OptionMenu 3
-Exec OptionMenu 4

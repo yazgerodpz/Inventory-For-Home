@@ -15,10 +15,11 @@ namespace InventoryForHome.Models
         {
             modelBuilder.Entity<StoredProcedure1>(entity =>
             {
+                entity.HasKey(e => e.IdItem);
                 entity.Property(e => e.ItemName);
                 entity.Property(e => e.Stock);
-                entity.HasKey(e => e.IdTypePrioritary);
-                entity.HasKey(e => e.IdTypeStock);
+                entity.Property(e => e.TypePrioritaryName);
+                entity.Property(e => e.TypeStockName);
                 entity.Property(e => e.PurchesDate);
                 entity.Property(e => e.ExpirationDate);
             }

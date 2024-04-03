@@ -8,13 +8,15 @@ namespace InventoryForHome.Models
 {
     public class StoredProcedure1
     {
+        public int IdItem { get; set; }
+
         public string ItemName { get; set; } = null!;
 
         public int Stock { get; set; }
 
-        public int IdTypePrioritary { get; set; }
+        public string Type_Prioritary { get; set; } = null!;
 
-        public int IdTypeStock { get; set; }
+        public string Type_Stock { get; set; } = null!;
 
         public DateTime PurchesDate { get; set; }
 

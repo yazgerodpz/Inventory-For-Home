@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "D:\\Yazryr\\Documents\\Programaci\u00F3n\\Inventory-For-Home\\InventoryForHome\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AE93522-8671-4941-9DEE-6FB697AC57EF}|InventoryForHome\\InventoryForHome.csproj|d:\\yazryr\\documents\\programaci\u00F3n\\inventory-for-home\\inventoryforhome\\inventoryforhome\\models\\querys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AE93522-8671-4941-9DEE-6FB697AC57EF}|InventoryForHome\\InventoryForHome.csproj|solutionrelative:inventoryforhome\\models\\querys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4AE93522-8671-4941-9DEE-6FB697AC57EF}|InventoryForHome\\InventoryForHome.csproj|d:\\yazryr\\documents\\programaci\u00F3n\\inventory-for-home\\inventoryforhome\\inventoryforhome\\models\\storedprocedure1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AE93522-8671-4941-9DEE-6FB697AC57EF}|InventoryForHome\\InventoryForHome.csproj|solutionrelative:inventoryforhome\\models\\storedprocedure1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AE93522-8671-4941-9DEE-6FB697AC57EF}|InventoryForHome\\InventoryForHome.csproj|d:\\yazryr\\documents\\programaci\u00F3n\\inventory-for-home\\inventoryforhome\\inventoryforhome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AE93522-8671-4941-9DEE-6FB697AC57EF}|InventoryForHome\\InventoryForHome.csproj|solutionrelative:inventoryforhome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AE93522-8671-4941-9DEE-6FB697AC57EF}|InventoryForHome\\InventoryForHome.csproj|d:\\yazryr\\documents\\programaci\u00F3n\\inventory-for-home\\inventoryforhome\\inventoryforhome\\models\\querys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AE93522-8671-4941-9DEE-6FB697AC57EF}|InventoryForHome\\InventoryForHome.csproj|solutionrelative:inventoryforhome\\models\\querys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AE93522-8671-4941-9DEE-6FB697AC57EF}|InventoryForHome\\InventoryForHome.csproj|d:\\yazryr\\documents\\programaci\u00F3n\\inventory-for-home\\inventoryforhome\\inventoryforhome\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AE93522-8671-4941-9DEE-6FB697AC57EF}|InventoryForHome\\InventoryForHome.csproj|solutionrelative:inventoryforhome\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4AE93522-8671-4941-9DEE-6FB697AC57EF}|InventoryForHome\\InventoryForHome.csproj|d:\\yazryr\\documents\\programaci\u00F3n\\inventory-for-home\\inventoryforhome\\inventoryforhome\\models\\auxiliarcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AE93522-8671-4941-9DEE-6FB697AC57EF}|InventoryForHome\\InventoryForHome.csproj|solutionrelative:inventoryforhome\\models\\auxiliarcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4AE93522-8671-4941-9DEE-6FB697AC57EF}|InventoryForHome\\InventoryForHome.csproj|d:\\yazryr\\documents\\programaci\u00F3n\\inventory-for-home\\inventoryforhome\\inventoryforhome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AE93522-8671-4941-9DEE-6FB697AC57EF}|InventoryForHome\\InventoryForHome.csproj|solutionrelative:inventoryforhome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4AE93522-8671-4941-9DEE-6FB697AC57EF}|InventoryForHome\\InventoryForHome.csproj|d:\\yazryr\\documents\\programaci\u00F3n\\inventory-for-home\\inventoryforhome\\inventoryforhome\\models\\inventoryforhomecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AE93522-8671-4941-9DEE-6FB697AC57EF}|InventoryForHome\\InventoryForHome.csproj|solutionrelative:inventoryforhome\\models\\inventoryforhomecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AE93522-8671-4941-9DEE-6FB697AC57EF}|InventoryForHome\\InventoryForHome.csproj|d:\\yazryr\\documents\\programaci\u00F3n\\inventory-for-home\\inventoryforhome\\inventoryforhome\\dto\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AE93522-8671-4941-9DEE-6FB697AC57EF}|InventoryForHome\\InventoryForHome.csproj|solutionrelative:inventoryforhome\\dto\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AE93522-8671-4941-9DEE-6FB697AC57EF}|InventoryForHome\\InventoryForHome.csproj|d:\\yazryr\\documents\\programaci\u00F3n\\inventory-for-home\\inventoryforhome\\inventoryforhome\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AE93522-8671-4941-9DEE-6FB697AC57EF}|InventoryForHome\\InventoryForHome.csproj|solutionrelative:inventoryforhome\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,30 +34,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Yazryr\\Documents\\Programaci\u00F3n\\Inventory-For-Home\\InventoryForHome\\InventoryForHome\\Program.cs",
               "RelativeDocumentMoniker": "InventoryForHome\\Program.cs",
               "ToolTip": "D:\\Yazryr\\Documents\\Programaci\u00F3n\\Inventory-For-Home\\InventoryForHome\\InventoryForHome\\Program.cs",
               "RelativeToolTip": "InventoryForHome\\Program.cs",
-              "ViewState": "AQIAACEBAAAAAAAAAAAcwC0BAAAbAAAA",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAQwCYAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-31T04:18:36.5Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "InventoryForHomeContext.cs",
               "DocumentMoniker": "D:\\Yazryr\\Documents\\Programaci\u00F3n\\Inventory-For-Home\\InventoryForHome\\InventoryForHome\\Models\\InventoryForHomeContext.cs",
               "RelativeDocumentMoniker": "InventoryForHome\\Models\\InventoryForHomeContext.cs",
               "ToolTip": "D:\\Yazryr\\Documents\\Programaci\u00F3n\\Inventory-For-Home\\InventoryForHome\\InventoryForHome\\Models\\InventoryForHomeContext.cs",
               "RelativeToolTip": "InventoryForHome\\Models\\InventoryForHomeContext.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAuwDUAAAALAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAuwDUAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-31T04:28:48.372Z",
               "EditorCaption": ""
@@ -74,61 +70,48 @@
               "RelativeDocumentMoniker": "InventoryForHome\\Models\\AuxiliarContext.cs",
               "ToolTip": "D:\\Yazryr\\Documents\\Programaci\u00F3n\\Inventory-For-Home\\InventoryForHome\\InventoryForHome\\Models\\AuxiliarContext.cs",
               "RelativeToolTip": "InventoryForHome\\Models\\AuxiliarContext.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAA0AAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA5wBEAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-31T04:32:01.394Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Querys.cs",
               "DocumentMoniker": "D:\\Yazryr\\Documents\\Programaci\u00F3n\\Inventory-For-Home\\InventoryForHome\\InventoryForHome\\Models\\Querys.cs",
               "RelativeDocumentMoniker": "InventoryForHome\\Models\\Querys.cs",
               "ToolTip": "D:\\Yazryr\\Documents\\Programaci\u00F3n\\Inventory-For-Home\\InventoryForHome\\InventoryForHome\\Models\\Querys.cs",
               "RelativeToolTip": "InventoryForHome\\Models\\Querys.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAABBAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAwwAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-31T04:36:16.165Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Item.cs",
-              "DocumentMoniker": "D:\\Yazryr\\Documents\\Programaci\u00F3n\\Inventory-For-Home\\InventoryForHome\\InventoryForHome\\Models\\Item.cs",
-              "RelativeDocumentMoniker": "InventoryForHome\\Models\\Item.cs",
-              "ToolTip": "D:\\Yazryr\\Documents\\Programaci\u00F3n\\Inventory-For-Home\\InventoryForHome\\InventoryForHome\\Models\\Item.cs",
-              "RelativeToolTip": "InventoryForHome\\Models\\Item.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T04:24:19.443Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Itemdto.cs",
-              "DocumentMoniker": "D:\\Yazryr\\Documents\\Programaci\u00F3n\\Inventory-For-Home\\InventoryForHome\\InventoryForHome\\DTO\\Itemdto.cs",
-              "RelativeDocumentMoniker": "InventoryForHome\\DTO\\Itemdto.cs",
-              "ToolTip": "D:\\Yazryr\\Documents\\Programaci\u00F3n\\Inventory-For-Home\\InventoryForHome\\InventoryForHome\\DTO\\Itemdto.cs",
-              "RelativeToolTip": "InventoryForHome\\DTO\\Itemdto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T04:24:23.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "StoredProcedure1.cs",
               "DocumentMoniker": "D:\\Yazryr\\Documents\\Programaci\u00F3n\\Inventory-For-Home\\InventoryForHome\\InventoryForHome\\Models\\StoredProcedure1.cs",
               "RelativeDocumentMoniker": "InventoryForHome\\Models\\StoredProcedure1.cs",
               "ToolTip": "D:\\Yazryr\\Documents\\Programaci\u00F3n\\Inventory-For-Home\\InventoryForHome\\InventoryForHome\\Models\\StoredProcedure1.cs",
               "RelativeToolTip": "InventoryForHome\\Models\\StoredProcedure1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA0AAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwA4AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T04:25:22.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Item.cs",
+              "DocumentMoniker": "D:\\Yazryr\\Documents\\Programaci\u00F3n\\Inventory-For-Home\\InventoryForHome\\InventoryForHome\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "InventoryForHome\\Models\\Item.cs",
+              "ToolTip": "D:\\Yazryr\\Documents\\Programaci\u00F3n\\Inventory-For-Home\\InventoryForHome\\InventoryForHome\\Models\\Item.cs",
+              "RelativeToolTip": "InventoryForHome\\Models\\Item.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T04:47:57.812Z",
               "EditorCaption": ""
             }
           ]

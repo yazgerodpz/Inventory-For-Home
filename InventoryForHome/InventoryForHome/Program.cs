@@ -2,6 +2,7 @@
 
 using System.ComponentModel.Design;
 using System.Runtime.CompilerServices;
+using InventoryForHome.Models;
 
 // linea para estableser un ciclo
 bool _condicionCiclo = true;
@@ -35,6 +36,7 @@ async Task MainMenuAsync()
                 Console.WriteLine("Se eligió ver inventario");
                 // una micro pausa antes limpiarse
                 await Task.Delay(2500);
+                await Querys.ObtenerTablaItemAsync();
                 break;
 
             case "2":
