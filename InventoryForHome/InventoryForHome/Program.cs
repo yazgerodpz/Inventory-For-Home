@@ -20,8 +20,8 @@ async Task MainMenuAsync()
     {
         // estas son las opciones del menú que se mostraran
         Console.WriteLine("Seleccione una de las siguientes opciones para proceder");
-        Console.WriteLine("1.- Ver el inventario");
-        Console.WriteLine("2.- Editar el inventario");
+        Console.WriteLine("1.- Ver el Inventario");
+        Console.WriteLine("2.- Editar el Inventario");
         Console.WriteLine("3.- Ver información de 'Stock' ó 'Prioridad'");
         Console.WriteLine("4.- Editar 'Stock' ó 'Prioridad'");
         Console.WriteLine("5.- Salir");
@@ -33,14 +33,19 @@ async Task MainMenuAsync()
         {
             case "1":
                 // se mostrara la siguiente linea
-                Console.WriteLine("Se eligió ver inventario");
+                Console.WriteLine("Se eligió ver Inventario");
                 // una micro pausa antes limpiarse
                 await Task.Delay(2500);
-                await Querys.ObtenerTablaItemAsync();
+                Console.Clear();
+                List<StoredProcedure1> _AllInventoryInDb = new List<StoredProcedure1>();
+                _AllInventoryInDb = await Querys.ObtenerTablaItemAsync();
+                bool ShowsInventory = true;
+                string OptMenuView = string.Empty;
+                await ImprimirElementos(_AllInventoryInDb);
                 break;
 
             case "2":
-                Console.WriteLine("Se eligió editar inventario");
+                Console.WriteLine("Se eligió editar Inventario");
                 await SubmenuA1();
                 await Task.Delay(2500);
                 break;
@@ -87,7 +92,7 @@ async Task SubmenuA1()
     Console.Clear();
     do
     {
-        Console.WriteLine("Opciones de editar inventario");
+        Console.WriteLine("Opciones de editar Inventario");
         Console.WriteLine("1.-Añadir nuevo artículo");
         Console.WriteLine("2.-Modificar artículo");
         Console.WriteLine("3.-Eliminar artículo");
@@ -306,3 +311,113 @@ async Task SubmenuB2()
     }
     while (SubmenuB2);
 }
+
+//creación de la función que imprimira la info de los SP
+async Task ImprimirElementos(List<StoredProcedure1> _LitasInventory)
+{
+    int count = 0;
+    int limit = 5;
+    int _index = 0;
+    string _OpcMov = string.Empty;
+    do
+    {
+        do
+        {
+            // si el indice es menor al numero de elementos en la lista
+            if (_index < _LitasInventory.Count)
+            {   
+                //se imprime un borde superior
+                Console.WriteLine("77777777");
+                //se debe imprimir un solo elemento de la lista en la posicion del indice actual
+                Console.WriteLine($"IdItem: {_LitasInventory[_index].IdItem}; ItemName: {_LitasInventory[_index].ItemName}; Stock: {_LitasInventory[_index].Stock}; TypePriorityName: {_LitasInventory[_index].TypePrioritaryName}; TypeStockName: {_LitasInventory[_index].TypeStockName}; PurchesDate: {_LitasInventory[_index].PurchesDate}; ExpirationDate: {_LitasInventory[_index].ExpirationDate};");
+                //se incrementa el index +1
+                _index++;
+                //se imprime borde inferior
+                Console.WriteLine("77777777");
+                //se genera un espacio de separación
+                Console.WriteLine("");
+            }
+            //se incrementa el contador
+            count++;
+        //evalua el ciclo mientras el contador sea menor que el limite
+        }while (count < limit);
+
+        Console.WriteLine("");
+        Console.WriteLine("Para ver los siguientes 5 oprima n.");
+        Console.WriteLine("Para volver al menu oprima q");
+        Console.WriteLine("Para buscar por Id oprima f");
+        Console.WriteLine("");
+        _OpcMov = Console.ReadLine();
+        switch (_OpcMov)
+        {
+            //se crea la opción para ir visualizando la información 
+            case "n":
+                count = 0;
+                Console.Clear();
+                break;
+            //la opción para salir de la visualización
+            case "q":
+                break;
+            //se manda a llamar la función de busqueda por Id
+            case "f":
+                await BuscarArticulo(_LitasInventory);
+                break;
+            //opción de control para evitar problemas al interactuar el usuario con el programa
+            default:
+                Console.WriteLine("La opción no existe");
+                _index = 0;
+                await Task.Delay(1000);
+                break;
+        }
+    } while (_OpcMov != "q");
+}
+//fin del ciclo de visualización
+
+//se crea la función buscar por Id
+async Task BuscarArticulo(List<StoredProcedure1> _LitasInventory)
+{
+    //comando para limpiar la pantalla anterior
+    Console.Clear ();
+    //se crea la cadena para identificar la función
+    string _OptBuscarArt = string.Empty;
+    //se indica que la cadena de busqueda es un num entero que partira de cero
+    int _IdBuscado = 0;
+    //inicia el ciclo de la función de busqueda
+    do
+    {
+
+        Console.WriteLine("Ingrese el Id numérico que desea buscar");
+        Console.WriteLine("Para finalizar la busqueda oprima q");
+        _OptBuscarArt = Console.ReadLine();
+        Console.Clear();
+        switch ( _OptBuscarArt)
+        {
+            //opción para salir de la busqueda
+            case "q":
+                break;
+            //la opción para buscar por Id
+            default:
+                //expresión lamda usada para combertir los datos del sp para poder buscarlos
+                _IdBuscado = Convert.ToInt32(_OptBuscarArt);
+                //expresión para obtener el primer de los elementos que concuerde con los parametros de busqueda
+                //en este caso el Id
+                var ArtBuscado = _LitasInventory.FirstOrDefault( e => e.IdItem == _IdBuscado);
+                if( ArtBuscado != null )
+                {
+                    //lineas que se imprimiran en pantalla si existe el objeto buscado
+                    Console.WriteLine("3333333");
+                    Console.WriteLine($"IdItem: {ArtBuscado.IdItem}; ItemName: {ArtBuscado.ItemName}; Stock: {ArtBuscado.Stock}; TypePriorityName: {ArtBuscado.TypePrioritaryName}; TypeStockName: {ArtBuscado.TypeStockName}; PurchesDate: {ArtBuscado.PurchesDate}; ExpirationDate: {ArtBuscado.ExpirationDate}");
+                    Console.WriteLine("3333333");
+                    Console.WriteLine("");
+                    Console.Clear();
+                }
+                else
+                {
+                    //lineas que se imprimiran si no existe el objeto buscado
+                    Console.WriteLine("Id de articulo incorrecto");
+                }
+                break;
+        }
+    }while(_OptBuscarArt != "q");
+}
+//fin de loop 'comando de busqueda'

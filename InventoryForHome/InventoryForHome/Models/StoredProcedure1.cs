@@ -14,9 +14,9 @@ namespace InventoryForHome.Models
 
         public int Stock { get; set; }
 
-        public string Type_Prioritary { get; set; } = null!;
+        public string TypePrioritaryName { get; set; } = null!;
 
-        public string Type_Stock { get; set; } = null!;
+        public string TypeStockName { get; set; } = null!;
 
         public DateTime PurchesDate { get; set; }
 
