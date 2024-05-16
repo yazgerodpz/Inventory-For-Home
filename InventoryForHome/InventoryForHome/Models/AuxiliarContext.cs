@@ -10,7 +10,9 @@ namespace InventoryForHome.Models
 {
     public partial class InventoryForHomeContext : DbContext
     {
-        public virtual DbSet<StoredProcedure1> StoredProcedure1s  { get; set; }
+        public virtual DbSet<StoredProcedure1> StoredProcedure1s { get; set; }
+        public virtual DbSet<StoredProcedure2> StoredProcedure2s { get; set; }
+        public virtual DbSet<StoredProcedure3> StoredProcedure3s { get; set; }
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<StoredProcedure1>(entity =>
@@ -24,6 +26,19 @@ namespace InventoryForHome.Models
                 entity.Property(e => e.ExpirationDate);
             }
             );
+            modelBuilder.Entity<StoredProcedure3>(entity =>
+            {
+                entity.HasKey(e => e.IdTypeStock);
+                entity.Property(e => e.TypeStockName);
+            }
+            );
+            modelBuilder.Entity<StoredProcedure2>(entity =>
+            {
+                entity.HasKey(e => e.IdTypePrioritary);
+                entity.Property(e => e.TypePrioritaryName);
+                entity.Property(e => e.Description);
+            }
+           );
         }
     }
 }

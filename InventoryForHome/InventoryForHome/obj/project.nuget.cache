@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lx95mobclwvNA5aCjRe+XNvEdE95rXxwSBN9ny/TBxkuznXOuBm4k/r4cltWNdCHqsWsEyiDa1HP4vklHOSmzA==",
+  "dgSpecHash": "iWZi0oK5OLu4/ZpD+CN2ds1zU+brsuiI8/43wd+L5v9w2RNe1wj2CxQ0ybCb/WdKcF90E1ZJpSxwsc3+M4QaEw==",
   "success": true,
   "projectFilePath": "D:\\Yazryr\\Documents\\Programación\\Inventory-For-Home\\InventoryForHome\\InventoryForHome\\InventoryForHome.csproj",
   "expectedPackageFiles": [
@@ -65,10 +65,10 @@
     "C:\\Users\\Yazryr\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
     "C:\\Users\\Yazryr\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Yazryr\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
-    "C:\\Users\\Yazryr\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\Yazryr\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\Yazryr\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\Yazryr\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.17\\microsoft.netcore.app.host.win-x64.7.0.17.nupkg.sha512"
+    "C:\\Users\\Yazryr\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.18\\microsoft.windowsdesktop.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\Yazryr\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.18\\microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\Yazryr\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.18\\microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\Yazryr\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.18\\microsoft.netcore.app.host.win-x64.7.0.18.nupkg.sha512"
   ],
   "logs": []
 }

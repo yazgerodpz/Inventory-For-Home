@@ -150,11 +150,21 @@ async Task SubmenuA2()
             case "1":
                 Console.WriteLine("Se eligío ver información de 'Stock'");
                 await Task.Delay(2500);
+                List<StoredProcedure3> _AllStockInDb = new List<StoredProcedure3>();
+                _AllStockInDb = await Querys.ObtenerTablaStockAsync();
+                bool ShowsStock = true;
+                string OptMenuViewS = string.Empty;
+                await ImprimirSTOCK(_AllStockInDb);
                 break;
 
             case "2":
                 Console.WriteLine("Se eligío ver información de 'Prioridad'");
                 await Task.Delay(2500);
+                List<StoredProcedure2> _AllPrioridadInDb = new List<StoredProcedure2>();
+                _AllPrioridadInDb = await Querys.ObtenerTablaPrioridadAsync();
+                bool ShowsPrioridad = true;
+                string OptMenuViewP = string.Empty;
+                await ImprimirPrioridad(_AllPrioridadInDb);
                 break;
 
             case "3":
@@ -327,13 +337,13 @@ async Task ImprimirElementos(List<StoredProcedure1> _LitasInventory)
             if (_index < _LitasInventory.Count)
             {   
                 //se imprime un borde superior
-                Console.WriteLine("77777777");
+                Console.WriteLine("7------");
                 //se debe imprimir un solo elemento de la lista en la posicion del indice actual
                 Console.WriteLine($"IdItem: {_LitasInventory[_index].IdItem}; ItemName: {_LitasInventory[_index].ItemName}; Stock: {_LitasInventory[_index].Stock}; TypePriorityName: {_LitasInventory[_index].TypePrioritaryName}; TypeStockName: {_LitasInventory[_index].TypeStockName}; PurchesDate: {_LitasInventory[_index].PurchesDate}; ExpirationDate: {_LitasInventory[_index].ExpirationDate};");
                 //se incrementa el index +1
                 _index++;
                 //se imprime borde inferior
-                Console.WriteLine("77777777");
+                Console.WriteLine("7------");
                 //se genera un espacio de separación
                 Console.WriteLine("");
             }
@@ -389,7 +399,6 @@ async Task BuscarArticulo(List<StoredProcedure1> _LitasInventory)
         Console.WriteLine("Ingrese el Id numérico que desea buscar");
         Console.WriteLine("Para finalizar la busqueda oprima q");
         _OptBuscarArt = Console.ReadLine();
-        Console.Clear();
         switch ( _OptBuscarArt)
         {
             //opción para salir de la busqueda
@@ -401,15 +410,15 @@ async Task BuscarArticulo(List<StoredProcedure1> _LitasInventory)
                 _IdBuscado = Convert.ToInt32(_OptBuscarArt);
                 //expresión para obtener el primer de los elementos que concuerde con los parametros de busqueda
                 //en este caso el Id
+                Console.Clear();
                 var ArtBuscado = _LitasInventory.FirstOrDefault( e => e.IdItem == _IdBuscado);
-                if( ArtBuscado != null )
+                if (ArtBuscado != null)
                 {
                     //lineas que se imprimiran en pantalla si existe el objeto buscado
-                    Console.WriteLine("3333333");
+                    Console.WriteLine("3------");
                     Console.WriteLine($"IdItem: {ArtBuscado.IdItem}; ItemName: {ArtBuscado.ItemName}; Stock: {ArtBuscado.Stock}; TypePriorityName: {ArtBuscado.TypePrioritaryName}; TypeStockName: {ArtBuscado.TypeStockName}; PurchesDate: {ArtBuscado.PurchesDate}; ExpirationDate: {ArtBuscado.ExpirationDate}");
-                    Console.WriteLine("3333333");
+                    Console.WriteLine("3------");
                     Console.WriteLine("");
-                    Console.Clear();
                 }
                 else
                 {
@@ -419,5 +428,167 @@ async Task BuscarArticulo(List<StoredProcedure1> _LitasInventory)
                 break;
         }
     }while(_OptBuscarArt != "q");
+}
+//fin de loop 'comando de busqueda'
+
+async Task ImprimirPrioridad(List<StoredProcedure2> _LitasPrioridad)
+{
+    int count = 0;
+    int limit = 3;
+    int _index = 0;
+    string _OpcMovP = string.Empty;
+    do
+    {
+        do
+        {
+            // si el indice es menor al numero de elementos en la lista
+            if (_index < _LitasPrioridad.Count)
+            {
+                //se imprime un borde superior
+                Console.WriteLine("5-------");
+                //se debe imprimir un solo elemento de la lista en la posicion del indice actual
+                Console.WriteLine($"IdTypePrioritary {_LitasPrioridad[_index].IdTypePrioritary}, TypePrioritaryName: {_LitasPrioridad[_index].TypePrioritaryName}, _Description: {_LitasPrioridad[_index].Description}");
+                //se incrementa el index +1
+                _index++;
+                //se imprime borde inferior
+                Console.WriteLine("6-------");
+                //se genera un espacio de separación
+                Console.WriteLine("");
+            }
+            //se incrementa el contador
+            count++;
+            //evalua el ciclo mientras el contador sea menor que el limite
+        } while (count < limit);
+
+        Console.WriteLine("");
+        //Console.WriteLine("Para ver los siguientes 5 oprima n.");
+        Console.WriteLine("Para volver al menu oprima q");
+        Console.WriteLine("");
+        _OpcMovP = Console.ReadLine();
+        switch (_OpcMovP)
+        {
+            //se crea la opción para ir visualizando la información 
+            case "n":
+                count = 0;
+                Console.Clear();
+                break;
+            //la opción para salir de la visualización
+            case "q":
+                break;
+            //opción de control para evitar problemas al interactuar el usuario con el programa
+            default:
+                Console.WriteLine("La opción no existe");
+                _index = 0;
+                await Task.Delay(1000);
+                break;
+        }
+    } while (_OpcMovP != "q");
+}
+//fin del ciclo de visualización
+
+async Task ImprimirSTOCK(List<StoredProcedure3> _LitasSTOCK)
+{
+    int count = 0;
+    int limit = 5;
+    int _index = 0;
+    string _OpcMovS = string.Empty;
+    do
+    {
+        do
+        {
+            // si el indice es menor al numero de elementos en la lista
+            if (_index < _LitasSTOCK.Count)
+            {
+                //se imprime un borde superior
+                Console.WriteLine("7-------");
+                //se debe imprimir un solo elemento de la lista en la posicion del indice actual
+                Console.WriteLine($"IdTypeStock: {_LitasSTOCK[_index].IdTypeStock}, TypeStockName: {_LitasSTOCK[_index].TypeStockName}");
+                //se incrementa el index +1
+                _index++;
+                //se imprime borde inferior
+                Console.WriteLine("8-------");
+                //se genera un espacio de separación
+                Console.WriteLine("");
+            }
+            //se incrementa el contador
+            count++;
+            //evalua el ciclo mientras el contador sea menor que el limite
+        } while (count < limit);
+
+        Console.WriteLine("");
+        Console.WriteLine("Para ver los siguientes 5 oprima n.");
+        Console.WriteLine("Para volver al menu oprima q");
+        Console.WriteLine("Para buscar por Id oprima f");
+        Console.WriteLine("");
+        _OpcMovS = Console.ReadLine();
+        switch (_OpcMovS)
+        {
+            //se crea la opción para ir visualizando la información 
+            case "n":
+                count = 0;
+                Console.Clear();
+                break;
+            //la opción para salir de la visualización
+            case "q":
+                break;
+            //se manda a llamar la función de busqueda por Id
+            case "f":
+                await BuscarSTOCK(_LitasSTOCK);
+                break;
+            //opción de control para evitar problemas al interactuar el usuario con el programa
+            default:
+                Console.WriteLine("La opción no existe");
+                _index = 0;
+                await Task.Delay(1000);
+                break;
+        }
+    } while (_OpcMovS != "q");
+}
+//fin del ciclo de visualización
+
+async Task BuscarSTOCK(List<StoredProcedure3> _LitasSTOCK)
+{
+    //comando para limpiar la pantalla anterior
+    Console.Clear();
+    //se crea la cadena para identificar la función
+    string _OptBusSTOCK = string.Empty;
+    //se indica que la cadena de busqueda es un num entero que partira de cero
+    int _IdBuscado = 0;
+    //inicia el ciclo de la función de busqueda
+    do
+    {
+
+        Console.WriteLine("Ingrese el Id numérico que desea buscar");
+        Console.WriteLine("Para finalizar la busqueda oprima q");
+        _OptBusSTOCK = Console.ReadLine();
+        switch (_OptBusSTOCK)
+        {
+            //opción para salir de la busqueda
+            case "q":
+                break;
+            //la opción para buscar por Id
+            default:
+                //expresión lamda usada para combertir los datos del sp para poder buscarlos
+                _IdBuscado = Convert.ToInt32(_OptBusSTOCK);
+                //expresión para obtener el primer de los elementos que concuerde con los parametros de busqueda
+                //en este caso el Id
+                Console.Clear();
+                var STOCKBuscado = _LitasSTOCK.FirstOrDefault(e => e.IdTypeStock == _IdBuscado);
+                if (STOCKBuscado != null)
+                {
+                    //lineas que se imprimiran en pantalla si existe el objeto buscado
+                    Console.WriteLine("3-------");
+                    Console.WriteLine($"IdTypeStock: {STOCKBuscado.IdTypeStock}; TypeStockName: {STOCKBuscado.TypeStockName}");
+                    Console.WriteLine("4-------");
+                    Console.WriteLine("");
+                }
+                else
+                {
+                    //lineas que se imprimiran si no existe el objeto buscado
+                    Console.WriteLine("Id de articulo incorrecto");
+                }
+                break;
+        }
+    } while (_OptBusSTOCK != "q");
 }
 //fin de loop 'comando de busqueda'

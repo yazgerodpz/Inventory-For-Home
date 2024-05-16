@@ -39,9 +39,9 @@ BEGIN
 
 	If @CP = 2
 	Begin
-		SELECT --[IdTypePrioritary]
-				 [TypePrioritaryName]
-				,[_Description]
+		SELECT	[IdTypePrioritary]
+				,[TypePrioritaryName]
+				,[_Description] as [Description]
 			   --,[Active]
 		FROM [InventoryForHome].[dbo].[CatTypePrioritary]
 	END

@@ -8,7 +8,7 @@ namespace InventoryForHome.Models
 {
     public class StoredProcedure3
     {
-
+        public int IdTypeStock { get; set; }
         public string TypeStockName { get; set; } = null!;
 
     }
